@@ -1,5 +1,5 @@
 {
-    "name": "PyrobyteWeb/php-webmoney",
+    "name": "pyrobyteweb/php-webmoney",
     "description": "WebMoney API PHP Library",
     "keywords": ["webmoney", "megastock", "capitaller", "WMXI", "WMSigner"],
     "license": "BSD-3-Clause",
