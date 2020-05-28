@@ -28,7 +28,7 @@ class Request extends X\Request
                 break;
 
             case self::AUTH_LIGHT:
-                $this->url = 'https://w3s.wmtransfer.com/asp/XMLInvoiceRefusalCert.asp';
+                $this->url = 'https://w3s.wmtransfer.com/asp/XMLInvoiceRefusalPCert.asp';
                 break;
 
             default:

@@ -53,11 +53,11 @@ class Request extends X\Request
     {
         switch ($authType) {
             case self::AUTH_CLASSIC:
-                $this->url = 'https://w3s.webmoney.ru/asp/XMLTrans.asp';
+                $this->url = 'https://w3s.webmoney.ru/asp/XMLTransP.asp';
                 break;
 
             case self::AUTH_LIGHT:
-                $this->url = 'https://w3s.wmtransfer.com/asp/XMLTransCert.asp';
+                $this->url = 'https://w3s.wmtransfer.com/asp/XMLTransPCert.asp';
                 break;
 
             default:

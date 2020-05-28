@@ -48,11 +48,11 @@ class Request extends X\Request
     {
         switch ($authType) {
             case self::AUTH_CLASSIC:
-                $this->url = 'https://w3s.webmoney.ru/asp/XMLInvoice.asp';
+                $this->url = 'https://w3s.webmoney.ru/asp/XMLInvoiceP.asp';
                 break;
 
             case self::AUTH_LIGHT:
-                $this->url = 'https://w3s.wmtransfer.com/asp/XMLInvoiceCert.asp';
+                $this->url = 'https://w3s.wmtransfer.com/asp/XMLInvoicePCert.asp';
                 break;
 
             default:
