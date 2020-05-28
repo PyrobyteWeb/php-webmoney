@@ -19,6 +19,8 @@ class Response extends AbstractResponse
 
     public function __construct($response)
     {
+        // After changed R-purses to P-purses webmoney sends incorrect symbols
+        $response = mb_convert_encoding($response, 'Windows-1251', 'UTF-8');
         parent::__construct($response);
 
         $responseObject = new \SimpleXMLElement($response);
